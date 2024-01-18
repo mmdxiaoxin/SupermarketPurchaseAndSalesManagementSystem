@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{AFF1CCEC-B4A2-4210-8656-3221EFBE40FB}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>SupermarketPurchaseAndSalesManagementSystem</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CAboutBoxDlg.h" />
+    <ClInclude Include="CAdd_Dlg.h" />
+    <ClInclude Include="CAdd_FirmDlg.h" />
+    <ClInclude Include="CAdd_StaffDlg.h" />
+    <ClInclude Include="CCategory.h" />
+    <ClInclude Include="CChangeFirmDlg.h" />
+    <ClInclude Include="CChangeProductDlg.h" />
+    <ClInclude Include="CChangePwdDlg.h" />
+    <ClInclude Include="CChangeSafetyDlg.h" />
+    <ClInclude Include="CChangeStaffInfDlg.h" />
+    <ClInclude Include="CDelDlg.h" />
+    <ClInclude Include="CDispalyView.h" />
+    <ClInclude Include="CFirmAdminDlg.h" />
+    <ClInclude Include="CFirmInfoDlg.h" />
+    <ClInclude Include="CForgotPwdDlg.h" />
+    <ClInclude Include="CInfoDlg.h" />
+    <ClInclude Include="CInfoFile.h" />
+    <ClInclude Include="CInputDlg.h" />
+    <ClInclude Include="ClassView.h" />
+    <ClInclude Include="CLoginDlg.h" />
+    <ClInclude Include="COutputDlg.h" />
+    <ClInclude Include="CProductInfoDlg.h" />
+    <ClInclude Include="CPublic.h" />
+    <ClInclude Include="CRegisterDlg.h" />
+    <ClInclude Include="CSafetySysDlg.h" />
+    <ClInclude Include="CSelectView.h" />
+    <ClInclude Include="CSellDlg.h" />
+    <ClInclude Include="CSetSafetyDlg.h" />
+    <ClInclude Include="CTabCtrlDlg.h" />
+    <ClInclude Include="CTab_FIRM_Dlg.h" />
+    <ClInclude Include="CTab_IO_Dlg.h" />
+    <ClInclude Include="CUserDlg.h" />
+    <ClInclude Include="CUserStaffDlg.h" />
+    <ClInclude Include="CWarnStockDlg.h" />
+    <ClInclude Include="FileView.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="OutputWnd.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SupermarketPurchaseAndSalesManagementSystem.h" />
+    <ClInclude Include="SupermarketPurchaseAndSalesManagementSystemDoc.h" />
+    <ClInclude Include="SupermarketPurchaseAndSalesManagementSystemView.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="CViewTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAboutBoxDlg.cpp" />
+    <ClCompile Include="CAdd_Dlg.cpp" />
+    <ClCompile Include="CAdd_FirmDlg.cpp" />
+    <ClCompile Include="CAdd_StaffDlg.cpp" />
+    <ClCompile Include="CCategory.cpp" />
+    <ClCompile Include="CChangeFirmDlg.cpp" />
+    <ClCompile Include="CChangeProductDlg.cpp" />
+    <ClCompile Include="CChangePwdDlg.cpp" />
+    <ClCompile Include="CChangeSafetyDlg.cpp" />
+    <ClCompile Include="CChangeStaffInfDlg.cpp" />
+    <ClCompile Include="CDelDlg.cpp" />
+    <ClCompile Include="CDispalyView.cpp" />
+    <ClCompile Include="CFirmAdminDlg.cpp" />
+    <ClCompile Include="CFirmInfoDlg.cpp" />
+    <ClCompile Include="CForgotPwdDlg.cpp" />
+    <ClCompile Include="CInfoDlg.cpp" />
+    <ClCompile Include="CInfoFile.cpp" />
+    <ClCompile Include="CInputDlg.cpp" />
+    <ClCompile Include="ClassView.cpp" />
+    <ClCompile Include="CLoginDlg.cpp" />
+    <ClCompile Include="COutputDlg.cpp" />
+    <ClCompile Include="CProductInfoDlg.cpp" />
+    <ClCompile Include="CPublic.cpp" />
+    <ClCompile Include="CRegisterDlg.cpp" />
+    <ClCompile Include="CSafetySysDlg.cpp" />
+    <ClCompile Include="CSelectView.cpp" />
+    <ClCompile Include="CSellDlg.cpp" />
+    <ClCompile Include="CSetSafetyDlg.cpp" />
+    <ClCompile Include="CTabCtrlDlg.cpp" />
+    <ClCompile Include="CTab_FIRM_Dlg.cpp" />
+    <ClCompile Include="CTab_IO_Dlg.cpp" />
+    <ClCompile Include="CUserDlg.cpp" />
+    <ClCompile Include="CUserStaffDlg.cpp" />
+    <ClCompile Include="CWarnStockDlg.cpp" />
+    <ClCompile Include="FileView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="OutputWnd.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="SupermarketPurchaseAndSalesManagementSystem.cpp" />
+    <ClCompile Include="SupermarketPurchaseAndSalesManagementSystemDoc.cpp" />
+    <ClCompile Include="SupermarketPurchaseAndSalesManagementSystemView.cpp" />
+    <ClCompile Include="CViewTree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SupermarketPurchaseAndSalesManagementSystem.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ABOUT.bmp" />
+    <Image Include="res\background_login.bmp" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\classview.bmp" />
+    <Image Include="res\classview_hc.bmp" />
+    <Image Include="res\class_view.ico" />
+    <Image Include="res\class_view_hc.ico" />
+    <Image Include="res\explorer.bmp" />
+    <Image Include="res\explorer_hc.bmp" />
+    <Image Include="res\fileview.bmp" />
+    <Image Include="res\fileview_hc.bmp" />
+    <Image Include="res\file_view.ico" />
+    <Image Include="res\file_view_hc.ico" />
+    <Image Include="res\login.bmp" />
+    <Image Include="res\menuimages.bmp" />
+    <Image Include="res\menuimages_hc.bmp" />
+    <Image Include="res\output_wnd.ico" />
+    <Image Include="res\output_wnd_hc.ico" />
+    <Image Include="res\properties.bmp" />
+    <Image Include="res\properties_hc.bmp" />
+    <Image Include="res\properties_wnd.ico" />
+    <Image Include="res\properties_wnd_hc.ico" />
+    <Image Include="res\re.ico" />
+    <Image Include="res\Register.bmp" />
+    <Image Include="res\SELL_BACKGROUND.bmp" />
+    <Image Include="res\sort.bmp" />
+    <Image Include="res\sort_hc.bmp" />
+    <Image Include="res\SupermarketPurchaseAndSalesManagementSystem.ico" />
+    <Image Include="res\SupermarketPurchaseAndSalesManagementSystemDoc.ico" />
+    <Image Include="res\USER.bmp" />
+    <Image Include="res\user.ico" />
+    <Image Include="res\USER_CAPTION.bmp" />
+    <Image Include="res\USER_CAPTION_FIX.bmp" />
+    <Image Include="res\入库登记.ico" />
+    <Image Include="res\商品信息.ico" />
+    <Image Include="res\库存信息.ico" />
+    <Image Include="res\日结查询.ico" />
+    <Image Include="res\校徽.bmp" />
+    <Image Include="res\校徽.ico" />
+    <Image Include="res\用户管理.ico" />
+    <Image Include="res\超市进销存.BMP" />
+    <Image Include="res\进销记录.ico" />
+    <Image Include="res\销售查询.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SupermarketPurchaseAndSalesManagementSystem.rc2" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
