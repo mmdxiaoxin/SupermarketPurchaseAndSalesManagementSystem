@@ -11,13 +11,13 @@
 
 启动界面
 
-![image-20240119173428078](.\README.assets\image-20240119173428078.png)
+![image-20240119173428078](https://github.com/mmdxiaoxin/SupermarketPurchaseAndSalesManagementSystem/blob/master/README.assets/image-20240119173428078.png)
 
 注册账号
 
-![image-20240119173451644](.\README.assets\image-20240119173451644.png)
+![image-20240119173451644](https://github.com/mmdxiaoxin/SupermarketPurchaseAndSalesManagementSystem/blob/master/README.assets/image-20240119173451644.png)
 
 系统概览
 
-![image-20240119173521530](.\README.assets\image-20240119173521530.png)
+![image-20240119173521530](https://github.com/mmdxiaoxin/SupermarketPurchaseAndSalesManagementSystem/blob/master/README.assets/image-20240119173521530.png)
 
