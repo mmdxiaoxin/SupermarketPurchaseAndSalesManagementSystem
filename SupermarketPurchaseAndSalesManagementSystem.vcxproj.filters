@@ -114,9 +114,6 @@
     <ClInclude Include="CProductInfoDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="CWarnStockDlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="CForgotPwdDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -151,6 +148,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="CChangeFirmDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWarnStockDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -245,9 +245,6 @@
     <ClCompile Include="CProductInfoDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="CWarnStockDlg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="CForgotPwdDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -282,6 +279,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CChangeFirmDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CWarnStockDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -127,6 +127,7 @@
 #define IDI_ICON4                       399
 #define IDI_ICON_SCHOOL_BADGE           399
 #define DIALOG_CHANGE_FIRM              399
+#define IDD_DIALOG2                     400
 #define IDC_EDIT1                       1002
 #define IDC_EDIT2                       1003
 #define IDC_BUTTON1                     1004
@@ -238,7 +239,7 @@
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        400
+#define _APS_NEXT_RESOURCE_VALUE        402
 #define _APS_NEXT_COMMAND_VALUE         32780
 #define _APS_NEXT_CONTROL_VALUE         1083
 #define _APS_NEXT_SYMED_VALUE           314
